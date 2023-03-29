@@ -276,6 +276,17 @@ body{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25),
   0 10px 10px rgba(0,0,0,0.22);
 }
+.buy-4{
+  border:#584545;
+  background-color:#4285F4;
+  padding: 10px 30px;
+  font-size: 11px;
+  cursor: pointer;
+  margin: 21px;
+  display: inline-block;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+}
 
 /* On mouse-over */
 .btn:hover {background: #eee;}
@@ -353,3 +364,61 @@ h3{
   text-align: left;
 }
 h1{text-align: left;}
+
+
+.infotext{
+  color: #FFF;
+}
+
+
+.espoptions{
+  position: absolute;
+  top: 7%;
+  left: 27%;
+}
+.donee{
+ 
+  top: 44%;
+  left: 262%;
+}
+.doneee{
+ 
+  top: 44%;
+  left: 262%;
+}
+
+.bolded { font-weight: bold; }
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #04AA6D;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.nonbold{
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.feature-background { background-image: url(https://proxy.engineowning.to/0,syBKPvCiGglagimjo7rMQWjSqg73B1tQc1NOcuZ3nix4=/http://ytlmg.net:8011/u/5934872/di-S02M8U.png);min-height: 359px;}
