@@ -86,7 +86,7 @@ a:hover {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: #0D0F19;
+    background-color: #0d0f19;
   }
   
   .dropdown-content {
@@ -113,4 +113,243 @@ a:hover {
   .show {
     display: block;
   }
+.info
+{
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  text-align: center;
+}
+.spoofer{
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.spooferinfo{
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.EasyToUseSpoofer{
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.EasyToUseSpooferr{
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.notbold{
+  font-weight:normal
+}
+.wooferr{
+
+  display: block;
+  width: 50%;
+}
+body{
+  background: #FFFFFF;
+  color: #7f8db0;
+}
+.wrapper{
+  width: 100%;
+  min-height: 100%;
+}
+.box{
+  display: flex;
+  width: 950px;
+  margin: 140px auto;
+}
+.single-box{
+  width: 300px;
+  background: #FFF;
+  margin-right: 20px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+  position: relative;
+}
+.single-box:last-child{
+  margin-right: 0;
+}
+.single-box .price{
+  font-weight: 600;
+  font-size: 45px;
+}
+.single-box h3{
+  margin-top: 25%;
+  margin-bottom: 15px;
+}
+.single-box p{
+  line-height: 1.9;
+}
+.single-box a{
+  background: #584545;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 30px;
+}
+@media (max-width: 991px){
+  .box{
+    width: 100%;
+  }
+}
+.h6 span {
+  background-color: #2d2d2d;
+  padding: 0 1.2rem 0.8rem;
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.buy-1 {
+  border:#584545;
+  background-color:#4285F4;
+  padding: 10px 30px;
+  font-size: 11px;
+  cursor: pointer;
+  margin: 21px;
+  display: inline-block;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+}
+.buy-2 {
+  border:#584545;
+  background-color:#4285F4;
+  padding: 10px 30px;
+  font-size: 11px;
+  cursor: pointer;
+  margin: 21px;
+  display: inline-block;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+}
+.buy-3 {
+  border:#584545;
+  background-color:#4285F4;
+  padding: 10px 30px;
+  font-size: 11px;
+  cursor: pointer;
+  margin: 21px;
+  display: inline-block;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.content{
+
+  width:340px;
+  margin: 21px;
+  box-sizing: border-box;
+  float:inline-start;
+  text-align: center;
+  border-radius: 4px;
+  cursor:default;
+  padding-top: 22px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.22);
+  transition: .44s;
+  background: #FFF;
+  
+}
+.content:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+  transform: translate(0px, -8px);
+}
+p{
+  text-align: center;
+  color: #b2bec3;
+  padding-top: 0 8px;
+}
+h6{
+  font-size: -2;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  padding-top: 5px;
+}
+.fa{
+  font-size: 26px;
+  transition: .4s;
+}
+h3{
+  font-weight: normal;
+  font-size: 1;
+  text-align: center;
+  color: #070707;
+}
+.myBox {
+  border: solid 1px rgb(3, 3, 3);
+}
+.table {
+  display: table;
+  table-layout: fixed; /*for equal width columns*/
+  width: 100%;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  /*vertical-align: top;*/ /*enable this if necessary*/
+}
+.big {
+  font-size: 2em;
+}
+.SystemR{
+  text-align: left;
+}
+h1{text-align: left;}
